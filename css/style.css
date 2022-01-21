@@ -490,3 +490,6 @@ footer {
 .rotate-image:hover {
     transform :scale(1.1) rotate(15deg);
 }
+.typed-cursor {
+    opacity: 0 !important;
+}

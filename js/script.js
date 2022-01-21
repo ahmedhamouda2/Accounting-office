@@ -30,4 +30,17 @@ $(document).ready(function(){
 			clearInterval(theTyper);
 		}
     },120);
+
+	var typed = new Typed(".typing", {
+		strings: ["شرفتك نحو الاستشارات الاحترافية والخدمات المتكاملة في مواضيع المحاسبة والزكاة والضريبة"],
+		smartBackspace: false,
+		typeSpeed: 50,
+		startDelay: 5600,
+	});
+
+	$(document).ready(function() {
+		setTimeout(function() {
+			$(".show-btn").css("visibility", "visible");
+		}, 12300);
+	});
 });
