@@ -459,7 +459,19 @@ footer {
         left:0 !important
     }
     .custom-wow {
-        animation-delay: 0s !important;
+        animation-delay: 0.5s !important;
+    }
+    .custom-wow1 {
+        animation-delay: 0.5s !important;
+    }
+    .custom-wow2 {
+        animation-delay: 1s !important;
+    }
+    .custom-wow3 {
+        animation-delay: 1.5s !important;
+    }
+    .custom-wow4 {
+        animation-delay: 2s !important;
     }
 }
 @media (max-width:1180px){
