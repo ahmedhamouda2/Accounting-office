@@ -429,6 +429,29 @@ footer {
     color: var(--main);
     font-size: 30px;
 }
+
+.rotate-image {
+    transition: all 0.5s ease-in-out;
+}
+.rotate-image:hover {
+    transform :scale(1.1) rotate(15deg);
+}
+.typed-cursor {
+    opacity: 0 !important;
+}
+
+
+/**********************/
+.showcase {
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
 /* start media query */
 @media (max-width:567px) {
     .custom a {
@@ -473,6 +496,9 @@ footer {
     .custom-wow4 {
         animation-delay: 2s !important;
     }
+    .showcase {
+        margin-bottom: 1rem;
+    }
 }
 @media (max-width:1180px){
     .custom a:before , .custom a.active {
@@ -484,12 +510,3 @@ footer {
     }
 }
 /* end media query */
-.rotate-image {
-    transition: all 0.5s ease-in-out;
-}
-.rotate-image:hover {
-    transform :scale(1.1) rotate(15deg);
-}
-.typed-cursor {
-    opacity: 0 !important;
-}
