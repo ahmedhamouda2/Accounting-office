@@ -317,46 +317,7 @@ footer {
 }
 /* end scroll top */
 
-/* start media query */
-@media (max-width:567px) {
-    .custom a {
-        margin: 0;
-        padding: 0 !important;
-    }
-    .custom a:before , .custom a.active {
-        border-bottom: none;
-        content: none;
-    }
-    .about-inside {
-        padding-top: 20% !important;
-        width: 100% !important;
-        text-align: center;
-        font-weight: bold;
-    }
-    .about-inside h4{
-        font-weight: bold;
-    }
-    .about_company h3 {
-        font-weight: bold;
-        text-align: center;
-    }
-    .image-right-center ,.image-right-first {
-        right:0 !important
-    }
-    .image-left-center ,.image-left-first {
-        left:0 !important
-    }
-    .custom-wow {
-        animation-delay: 0s !important;
-    }
-}
-@media (max-width:1180px){
-    .custom a:before , .custom a.active {
-        border-bottom: none;
-        content: none;
-    }
-}
-/* end media query */
+
 
 /***************************start contact us page ************************** */
 .breadcrumb-hover:hover {
@@ -452,3 +413,62 @@ footer {
     width: 100%;
     transition-delay: 0.6s;
 }
+
+/************************* start our services   *****************************/
+.custom-width {
+    width:80% !important;
+    margin: auto;
+    font-size: 18px;
+    color: #727272;
+}
+.list li {
+    font-size: 18px;
+    color: #727272;
+}
+.list li::marker {
+    color: var(--main);
+    font-size: 30px;
+}
+/* start media query */
+@media (max-width:567px) {
+    .custom a {
+        margin: 0;
+        padding: 0 !important;
+    }
+    .custom a:before , .custom a.active {
+        border-bottom: none;
+        content: none;
+    }
+    .about-inside {
+        padding-top: 20% !important;
+        width: 100% !important;
+        text-align: center;
+        font-weight: bold;
+    }
+    .about-inside h4{
+        font-weight: bold;
+    }
+    .about_company h3 {
+        font-weight: bold;
+        text-align: center;
+    }
+    .image-right-center ,.image-right-first {
+        right:0 !important
+    }
+    .image-left-center ,.image-left-first {
+        left:0 !important
+    }
+    .custom-wow {
+        animation-delay: 0s !important;
+    }
+}
+@media (max-width:1180px){
+    .custom a:before , .custom a.active {
+        border-bottom: none;
+        content: none;
+    }
+    .custom-width {
+        width:100% !important;
+    }
+}
+/* end media query */
