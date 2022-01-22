@@ -108,13 +108,16 @@ html::-webkit-scrollbar-thumb {
 .about {
     width: 100%;
     height: 500px;
-    background-image: url('images/about.PNG');
+    background-image: url('images/slider1.webp');
     background-repeat: no-repeat;
     background-position: left center;
 }
 .about-inside {
     padding-top: 6%;
     width: 490px;
+}
+.carousel-inner , .carousel-item {
+    height: 500px !important;
 }
 /* .about-btn {
     text-decoration: none;
@@ -535,7 +538,7 @@ footer {
         content: none;
     }
     .about-inside {
-        padding-top: 20% !important;
+        /* padding-top: 20% !important; */
         width: 100% !important;
         text-align: center;
         font-weight: bold;
@@ -595,6 +598,15 @@ footer {
         text-overflow: ellipsis;
         white-space: nowrap;
     }
+    .custom-slider {
+        right: 0 !important;
+    }
+    .typer , .typing {
+        margin-bottom: 0 !important;
+    }
+    .carousel-inner , .carousel-item {
+        height: 250px !important;
+    }
 }
 @media (max-width:1180px){
     .custom a:before , .custom a.active {
@@ -606,3 +618,7 @@ footer {
     }
 }
 /* end media query */
+
+.carousel-indicators [data-bs-target] {
+    background-color: #000 !important;
+}

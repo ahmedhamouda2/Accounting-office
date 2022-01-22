@@ -51,16 +51,35 @@
             </nav>
             <!-- end our navbar-->
         </div>
-        <!-- start section about-->
-        <section class="about text-white">
-            <div class="container">
+
+        <!-- start slider -->
+        <div id="carouselExampleIndicators" class="carousel slide position-relative" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./css/images/slider1.webp" class="h-100 d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./css/images/slider2.webp" class="h-100 d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./css/images/slider3.webp" class="h-100 d-block w-100" alt="...">
+                </div>
+            </div>
+            <div class="container text-white custom-slider" style="position: absolute;top: 0;right: 50px;">
                 <div class="about-inside">
                     <h4 class="mb-5 typer" data-text="مكتب عبد الله العمودي لاستشارات الزكاة والضريبة"></h4>
                     <p class="lead mb-5 typing"></p>
                     <a href="pages/contact-us.html" class="about-btn2 show-btn" style="visibility: hidden;">تواصل معنا</a>
                 </div>
             </div>
-        </section>
+        </div>
+        <!-- End slider -->
+
         <!-- end section about-->
 
         <!-- start about company-->
