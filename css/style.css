@@ -206,7 +206,7 @@ a.about-btn2:hover:before , a.about-btn2:hover:after {
 /* end get a consultation */
 
 /* start section our branches */
-.image-branch {
+/* .image-branch {
     position: absolute;
     bottom: 0;
     border: 4px solid #fff;
@@ -253,7 +253,7 @@ a.about-btn2:hover:before , a.about-btn2:hover:after {
 .image-last:hover  {
     z-index: 3;
     transition: 0.5s;
-}
+} */
 /* end section our branches */
 
 /* start section contact us */

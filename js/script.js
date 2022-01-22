@@ -43,4 +43,54 @@ $(document).ready(function(){
 			$(".show-btn").css("visibility", "visible");
 		}, 12300);
 	});
+
 });
+$(document).ready(function() {
+	$(".skitter-large").skitter({
+		controls:true,
+		// focus:true,
+		interval:3500,
+		numbers:true,
+		dots:false,
+		progressbar:true,
+		progressbar_css:{background:"var(--main)"},
+		theme:"square",
+	});
+});
+
+$(document).ready(function() {
+	$(".skitter-large2").skitter({
+		controls:true,
+		// focus:true,
+		interval:3500,
+		numbers:true,
+		dots:false,
+		progressbar:true,
+		progressbar_css:{background:"var(--main)"},
+		theme:"square",
+	});
+});
+// $(document).ready(function() {
+// 	$(".skitter-large3").skitter({
+// 		controls:true,
+// 		// focus:true,
+// 		interval:3500,
+// 		numbers:true,
+// 		dots:false,
+// 		progressbar:true,
+// 		progressbar_css:{background:"var(--main)"},
+// 		theme:"square",
+// 	});
+// });
+// $(document).ready(function() {
+// 	$(".skitter-large4").skitter({
+// 		controls:true,
+// 		// focus:true,
+// 		interval:3500,
+// 		numbers:true,
+// 		dots:false,
+// 		progressbar:true,
+// 		progressbar_css:{background:"var(--main)"},
+// 		theme:"square",
+// 	});
+// });
