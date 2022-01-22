@@ -312,7 +312,7 @@ footer {
     transform: rotate(0deg) skew(0deg) translate(0, -10px);
 }
 .social-menu ul li:nth-child(1) a:hover {
-    background-color: #3b5999;
+    background-color: #FFFC00;
 }
 .social-menu ul li:nth-child(2) a:hover {
     background-color: #55acee;
