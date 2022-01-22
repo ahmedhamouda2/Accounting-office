@@ -441,14 +441,48 @@ footer {
 }
 
 
-/**********************/
+/***********blogs ***********/
 .showcase {
     margin-bottom: 2rem;
 }
+/**********************/
 
 
 
 
+
+/********* new more ***************/
+.news-more .top-text {
+    position: absolute;
+    color: #fff;
+    top: 80px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.showcase-up .showcase-text , .news-today .showcase-text {
+    position: absolute;
+    color: #fff;
+    bottom: 20px;
+    padding-right: 20px;
+    width: 90%;
+}
+.showcase-up .showcase-badge , .news-today .showcase-badge{ 
+    position: absolute;
+    top: 20px;
+    padding-right: 20px;
+}
+.news-more .number-category {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+/********* new more ***************/
 
 
 
@@ -498,6 +532,30 @@ footer {
     }
     .showcase {
         margin-bottom: 1rem;
+    }
+    .news-more .card-body {
+        padding: 0.2rem 0.5rem !important;
+        height: 100%;
+    }
+    .news-more .card-text {
+        font-size: 12px;
+        margin: 0 !important;
+    }
+    .news-more .badge {
+        margin: 5px !important;
+    }
+    .news-more .timer {
+        font-size: 12px !important;
+        margin: 5px !important;
+    }
+    .news-more .timer i {
+        font-size: 1em !important;
+    }
+    .news-more .card-title {
+        font-size: 16px !important;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
 }
 @media (max-width:1180px){

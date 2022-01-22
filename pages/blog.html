@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Bootstrap CSS -->
-        <title>Blogs</title>
+        <title>مكتب عبد الله العمودي</title>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,11 +27,11 @@
                     <div class="collapse navbar-collapse ms-4" id="navbarNavAltMarkup">
                         <div class="navbar-nav custom me-auto mb-2 mb-lg-0">
                             <a class="nav-link" href="../index.html" data-text="الرئيسة">الرئيسة</a>
-                            <a class="nav-link" href="./about-us.html" data-text="نبذة عنا">نبذة عنا </a>
-                            <a class="nav-link"  href="./our-services.html"  data-text="خدماتنا">خدماتنا</a>
-                            <!-- <a class="nav-link" href="#service_request" data-text=" طلب الخدمة"> طلب الخدمة</a> -->
+                            <a class="nav-link" href="about-us.html" data-text="نبذة عنا">نبذة عنا </a>
+                            <a class="nav-link"  href="our-services.html"  data-text="خدماتنا">خدماتنا</a>
+                            <a class="nav-link" href="../index.html#service_request" data-text=" طلب الخدمة"> طلب الخدمة</a>
                             <a class="nav-link active block" aria-current="page" href="#" data-text="المدونة">المدونة</a>
-                            <a class="nav-link"  href="./contact-us.html" data-text="تواصل معنا">تواصل معنا</a>
+                            <a class="nav-link"  href="contact-us.html" data-text="تواصل معنا">تواصل معنا</a>
                         </div>
                         <div class="d-flex justify-content-center">
                             <div class="d-flex align-items-center me-3">
@@ -68,94 +68,302 @@
         <!-- end intro breadcrumb -->
 
         <!-- start showcase -->
-        <section class="container mt-5">
+        <section class="container showcase-up mt-5">
             <div class="row">
                 <div class="col-md-6">
                     <div class="row showcase">
-                        <div class="col col-md-6 col-sm-6">
+                        <div class="col col-md-6 col-sm-6 position-relative">
+                            <div class="showcase-badge">
+                                <span class="badge bg-primary mb-3 ps-3 pe-3">السفر</span>
+                            </div>
                             <img src="../css/images/blogs/show_case1.png" class="w-100 img-fluid" alt="">
+                            <div class="showcase-text">
+                                <div class="d-flex align-items-center mb-1 timer">
+                                    <i class="far fa-clock me-1 text-white"></i>
+                                    <p class="m-0">July 12, 2021</p>
+                                </div>
+                                <h6>مدينة نيويورك في رحلة إلى القطب الشمالي نونافوت
+                                </h6>
+                            </div>
                         </div>
-                        <div class="col col-md-6">
+                        <div class="col col-md-6 position-relative">
+                            <div class="showcase-badge">
+                                <span class="badge bg-info mb-3 ps-3 pe-3">تكنولوجيا</span>
+                            </div>
                             <img src="../css/images/blogs/show_case2.png" class="w-100 img-fluid" alt="">
+                            <div class="showcase-text">
+                                <div class="d-flex align-items-center mb-1 timer">
+                                    <i class="far fa-clock me-1 text-white"></i>
+                                    <p class="m-0">July 12, 2021</p>
+                                </div>
+                                <h6>سر تحريك هذا أبو الهول القديم
+                                </h6>
+                            </div>
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <div class="col col-md-12">
+                        <div class="col col-md-12 position-relative">
+                            <div class="showcase-badge">
+                                <span class="badge bg-warning mb-3 ps-3 pe-3">أسلوب الحياة</span>
+                            </div>
                             <img src="../css/images/blogs/show_case3.png" class="w-100 img-fluid" alt="">
+                            <div class="showcase-text">
+                                <div class="d-flex align-items-center mb-1 timer">
+                                    <i class="far fa-clock me-1 text-white"></i>
+                                    <p class="m-0">July 12, 2021</p>
+                                </div>
+                                <h6>أسلوب الحياة يجلب تغييرات كبيرة في حياة الناس. هل أنت جاهز؟</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 position-relative">
+                    <div class="showcase-badge">
+                        <span class="badge bg-danger mb-3 ps-3 pe-3">موضة</span>
+                    </div>
                     <img src="../css/images/blogs/show_case4.png" class="w-100 img-fluid" alt="">
+                    <div class="showcase-text" style="bottom: 50px;">
+                        <div class="d-flex align-items-center mb-1 timer">
+                            <i class="far fa-clock me-1 text-white"></i>
+                            <p class="m-0">July 12, 2021</p>
+                        </div>
+                        <h6>مذهب المتعة والخياطة: كان لمجموعات ربيع 2021 النسائية كل شيء</h6>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- end showcase -->
 
         <!-- start news today -->
-        <section class="container mt-5">
-            <h2 class="fw-bold mb-3">أهم أخبار اليوم </h2>
+        <section class="container news-today mt-5 position-relative">
+            <h3 class="fw-bold text-secondary mb-3" >أهم أخبار اليوم </h3>
+            <hr class="d-none d-lg-block" style="position:absolute;top:5px;right:200px;width:84%;color: #D1D1D1;">
             <div class="row">
-                <div class="col-6 col-md-3 mb-3">
+                <div class="col-6 col-md-3 mb-3 position-relative">
+                    <div class="showcase-badge">
+                        <span class="badge bg-primary mb-3 ps-3 pe-3">السفر</span>
+                    </div>
                     <img src="../css/images/blogs/new-today1.png" class="w-100 img-fluid" alt="">
+                    <div class="showcase-text">
+                        <div class="d-flex align-items-center mb-1 timer">
+                            <i class="far fa-clock me-1 text-white"></i>
+                            <p class="m-0">July 12, 2021</p>
+                        </div>
+                        <h6>مدينة نيويورك في رحلة إلى القطب الشمالي نونافوت
+                        </h6>
+                    </div>
                 </div>
-                <div class="col-6 col-md-3">
+                <div class="col-6 col-md-3 position-relative">
+                    <div class="showcase-badge">
+                        <span class="badge bg-warning mb-3 ps-3 pe-3">أسلوب الحياة</span>
+                    </div>
                     <img src="../css/images/blogs/new-today2.png" class="w-100 img-fluid" alt="">
+                    <div class="showcase-text">
+                        <div class="d-flex align-items-center mb-1 timer">
+                            <i class="far fa-clock me-1 text-white"></i>
+                            <p class="m-0">July 12, 2021</p>
+                        </div>
+                        <h6>أسلوب الحياة يجلب تغييرات كبيرة في حياة الناس. هل أنت جاهز؟</h6>
+                    </div>
                 </div>
-                <div class="col-6 col-md-3">
+                <div class="col-6 col-md-3 position-relative">
+                    <div class="showcase-badge">
+                        <span class="badge bg-success mb-3 ps-3 pe-3">رياضة</span>
+                    </div>
                     <img src="../css/images/blogs/new-today3.png" class="w-100 img-fluid" alt="">
+                    <div class="showcase-text">
+                        <div class="d-flex align-items-center mb-1 timer">
+                            <i class="far fa-clock me-1 text-white"></i>
+                            <p class="m-0">July 12, 2021</p>
+                        </div>
+                        <h6>نانسي متعددة سيدة الأعمال الصينية تحاول</h6>
+                    </div>
                 </div>
-                <div class="col-6 col-md-3">
+                <div class="col-6 col-md-3 position-relative">
+                    <div class="showcase-badge">
+                        <span class="badge bg-info mb-3 ps-3 pe-3">تكنولوجيا</span>
+                    </div>
                     <img src="../css/images/blogs/new-today4.png" class="w-100 img-fluid" alt="">
+                    <div class="showcase-text">
+                        <div class="d-flex align-items-center mb-1 timer">
+                            <i class="far fa-clock me-1 text-white"></i>
+                            <p class="m-0">July 12, 2021</p>
+                        </div>
+                        <h6>سر تحريك هذا أبو الهول القديم
+                        </h6>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- end news today -->
 
         <!-- start more than news -->
-        <section class="container mt-5">
+        <section class="container news-more mt-5">
             <div class="row">
-                <div class="col-md-8 mb-4">
-                    <h2 class="fw-bold mb-3">المزيد من الأخبار </h2>
+                <div class="col-md-8 mb-4 position-relative">
+                    <hr class="d-none d-lg-block" style="position:absolute;top:5px;right:220px;width:75%;height:2px;color: #D1D1D1;">
+                    <h3 class="fw-bold text-secondary mb-3">المزيد من الأخبار </h3>
                     <div class="row">
+                        <!-- new one -->
                         <div class="col-12">
                             <div class="card mb-3">
                                 <div class="row g-0">
                                     <div class="col-4 col-md-4">
-                                        <img src="../css/images/blogs/more-news/new1.png" class="img-fluid rounded-start" alt="...">
+                                        <img src="../css/images/blogs/more-news/new1.png" class="h-100 w-100 img-fluid rounded-start" alt="...">
                                     </div>
                                     <div class="col-8 col-md-8">
                                         <div class="card-body">
                                             <span class="badge bg-danger mb-3 ps-3 pe-3">موضة</span>
-                                            <div class="d-flex align-items-center mb-3">
+                                            <div class="d-flex align-items-center mb-3 timer">
                                                 <i class="far fa-clock fa-lg me-2 text-danger"></i>
                                                 <p class="m-0">July 12, 2021</p>
-                                            </div>                                            <h5 class="card-title">مذهب المتعة والخياطة: كان لمجموعات ربيع 2021 النسائية كل شيء</h5>
-                                            <p class="card-text">كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة </p>
+                                            </div>
+                                            <h5 class="card-title fw-bold">مذهب المتعة والخياطة: كان لمجموعات ربيع 2021 النسائية كل شيء </h5>
+                                            <p class="card-text mt-3">كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة   </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <!-- new one -->
+
+                        <!-- new two -->
+                        <div class="col-12">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-4 col-md-4">
+                                        <img src="../css/images/blogs/new-today4.png" class="h-100 w-100 img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-8 col-md-8">
+                                        <div class="card-body">
+                                            <span class="badge bg-info mb-3 ps-3 pe-3">تكنولوجيا</span>
+                                            <div class="d-flex align-items-center mb-3 timer">
+                                                <i class="far fa-clock fa-lg me-2 text-info"></i>
+                                                <p class="m-0">July 12, 2021</p>
+                                            </div>
+                                            <h5 class="card-title fw-bold">سر تحريك هذا أبو الهول القديم
+                                            </h5>
+                                            <p class="card-text mt-3">كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة   </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- new two -->
+
+                        <!-- new three -->
+                        <div class="col-12">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-4 col-md-4">
+                                        <img src="../css/images/blogs/new-today1.png" class="h-100 w-100 img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-8 col-md-8">
+                                        <div class="card-body">
+                                            <span class="badge bg-primary mb-3 ps-3 pe-3">السفر</span>
+                                            <div class="d-flex align-items-center mb-3 timer">
+                                                <i class="far fa-clock fa-lg me-2 text-primary"></i>
+                                                <p class="m-0">July 12, 2021</p>
+                                            </div>
+                                            <h5 class="card-title fw-bold">مدينة نيويورك في رحلة إلى القطب الشمالي نونافوت
+                                            </h5>
+                                            <p class="card-text mt-3">كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة   </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- new three -->
+
+                        <!-- new four -->
+                        <div class="col-12">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-4 col-md-4">
+                                        <img src="../css/images/blogs/new-today2.png" class="h-100 w-100 img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-8 col-md-8">
+                                        <div class="card-body">
+                                            <span class="badge bg-warning mb-3 ps-3 pe-3">اسلوب الحياة</span>
+                                            <div class="d-flex align-items-center mb-3 timer">
+                                                <i class="far fa-clock fa-lg me-2 text-warning"></i>
+                                                <p class="m-0">July 12, 2021</p>
+                                            </div>
+                                            <h5 class="card-title fw-bold">أسلوب الحياة يجلب تغييرات كبيرة في حياة الناس. هل أنت جاهز؟</h5>
+                                            <p class="card-text mt-3">كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة   </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- new four -->
+
+                        <!-- new five -->
+                        <div class="col-12">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-4 col-md-4">
+                                        <img src="../css/images/blogs/new-today3.png" class="h-100 w-100 img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-8 col-md-8">
+                                        <div class="card-body">
+                                            <span class="badge bg-success mb-3 ps-3 pe-3">الرياضة</span>
+                                            <div class="d-flex align-items-center mb-3 timer">
+                                                <i class="far fa-clock fa-lg me-2 text-success"></i>
+                                                <p class="m-0">July 12, 2021</p>
+                                            </div>
+                                            <h5 class="card-title fw-bold">نانسي متعددة سيدة الأعمال الصينية تحاول</h5>
+                                            <p class="card-text mt-3">كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة   </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- new five -->
+
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <h2 class="fw-bold mb-3">التصنيفات </h2>
+                <div class="col-md-4 position-relative">
+                    <hr class="d-none d-lg-block" style="position:absolute;top:5px;right:152px;width:63%;height:2px;color: #D1D1D1;">
+                    <h3 class="fw-bold text-secondary mb-3">التصنيفات </h3>
                     <div class="row">
-                        <div class="col-12 mb-4">
+                        <div class="col-12 mb-4 position-relative">
                             <img src="../css/images/blogs/categories/fashion.png" class="w-100 img-fluid" alt="">
+                            <div class="top-text">
+                                <h5 class="fw-bold">موضة</h5>
+                                <span class="number-category bg-danger">8</span>
+                            </div>
                         </div>
-                        <div class="col-12 mb-4">
+                        <div class="col-12 mb-4 position-relative">
                             <img src="../css/images/blogs/categories/technology.png" class="w-100 img-fluid" alt="">
+                            <div class="top-text">
+                                <h5 class="fw-bold">تكنولوجيا</h5>
+                                <span class="number-category bg-info">5</span>
+                            </div>
                         </div>
-                        <div class="col-12 mb-4">
+                        <div class="col-12 mb-4 position-relative">
                             <img src="../css/images/blogs/categories/travel.png" class="w-100 img-fluid" alt="">
+                            <div class="top-text">
+                                <h5 class="fw-bold">السفر</h5>
+                                <span class="number-category bg-primary">7</span>
+                            </div>
                         </div>
-                        <div class="col-12 mb-4">
+                        <div class="col-12 mb-4 position-relative">
                             <img src="../css/images/blogs/categories/lifestyle.png" class="w-100 img-fluid" alt="">
+                            <div class="top-text">
+                                <h5 class="fw-bold">أسلوب الحياة</h5>
+                                <span class="number-category bg-warning">2</span>
+                            </div>
+                        </div>
+                        <div class="col-12 mb-4 position-relative">
+                            <img src="../css/images/blogs/categories/sport.png" class="w-100 img-fluid" alt="">
+                            <div class="top-text">
+                                <h5 class="fw-bold">الرياضة</h5>
+                                <span class="number-category bg-success">3</span>
+                            </div>
                         </div>
                         <div class="col-12 mb-4">
-                            <img src="../css/images/blogs/categories/sport.png" class="w-100 img-fluid" alt="">
+                            <img src="../css/images/blogs/sale.png" class="w-100 img-fluid" style="height: 534px;" alt="">
                         </div>
                     </div>
                 </div>
