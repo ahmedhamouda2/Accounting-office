@@ -140,6 +140,12 @@ html::-webkit-scrollbar-thumb {
     color: var(--main);
     text-decoration:none
 }
+.read-more .fa-arrow-left {
+    transition: 0.4s;
+}
+.read-more:hover .fa-arrow-left {
+    color: var(--main) !important;
+}
 /* end section about company */
 
 /* start our services */
