@@ -201,7 +201,7 @@ a.about-btn2:hover:before , a.about-btn2:hover:after {
 .consultation {
     width: 100%;
     height: 244px;
-    background-image: url('images/consultation.PNG');
+    background-image: url('images/consultation.webp');
     background-repeat: no-repeat;
     background-position: left center;
     background-size: cover;
@@ -280,7 +280,7 @@ a.about-btn2:hover:before , a.about-btn2:hover:after {
 footer {
     width: 100%;
     height: 200px;
-    background-image: url('./images/footer.png');
+    background-image: url('./images/footer.webp');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -368,7 +368,7 @@ footer {
 .intro-contact {
     width: 100%;
     height: 300px;
-    background-image: url('images/about-background.PNG');
+    background-image: url('images/about-background.webp');
     background-repeat: no-repeat;
     background-size: cover;
 }
