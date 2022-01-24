@@ -114,7 +114,7 @@ html::-webkit-scrollbar-thumb {
 }
 .about-inside {
     padding-top: 6%;
-    width: 490px;
+    width: 40%;
 }
 .carousel-inner , .carousel-item {
     height: 500px !important;
@@ -289,7 +289,7 @@ footer {
     justify-content: space-around;
     list-style: none;
     margin-top: 28px;
-    width: 400px;
+    width: 300px;
 }
 .social-menu i {
     color: #000000;
