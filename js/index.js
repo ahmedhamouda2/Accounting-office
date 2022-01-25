@@ -17,5 +17,6 @@ $(document).ready(function(){
 		smartBackspace: false,
 		typeSpeed: 50,
 		startDelay: 5600,
+		showCursor: false
 	});
 });
