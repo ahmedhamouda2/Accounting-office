@@ -425,7 +425,7 @@ footer {
     top: 80px;
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 90%;
 }
 .showcase-up .showcase-text , .news-today .showcase-text {
     position: absolute;
