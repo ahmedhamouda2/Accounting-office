@@ -468,6 +468,25 @@ footer {
     padding: 6px 6px;
 }
 /* end offers  */
+
+.border-custom {
+    border: 2px solid var(--main);
+    border-radius: 0;
+}
+.color-custom {
+    border: 2px solid var(--main);
+    border-radius: 4px;
+    background-color: var(--main);
+    color:#FFF !important;
+    position: relative;
+    z-index: 1;
+}
+
+.office_contact .btn-check:focus+.btn, .office_contact .btn:focus {
+    outline: 0;
+    border-color: var(--main) !important;
+    box-shadow: 0 0 0 0.25rem rgb(237 200 112 / 25%) !important;
+}
 /* start media query */
 @media (max-width:567px) {
     .custom a {
