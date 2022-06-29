@@ -465,7 +465,6 @@ footer {
 /* start offers  */
 .item {
     border-radius: 20px;
-    border: 1px solid rgb(237 200 112) !important;
 }
 .icon {
     border: 2px solid var(--main);
@@ -487,9 +486,6 @@ footer {
     z-index: 1;
 }
 
-.border-card {
-    border-color: var(--main) !important;
-}
 .style-price {
     color: var(--main);
     font-weight: bold;
